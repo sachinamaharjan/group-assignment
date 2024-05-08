@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lodges
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+    <lodge>
+        <name>Lodge 1</name>
+        <cost>200</cost>
+        <capacity>4</capacity>
+        <status>Available</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 2</name>
+        <cost>200</cost>
+        <capacity>4</capacity>
+        <status>Available</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 3</name>
+        <cost>250</cost>
+        <capacity>6</capacity>
+        <status>Available</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 4</name>
+        <cost>250</cost>
+        <capacity>6</capacity>
+        <status>Available</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 5</name>
+        <cost>100</cost>
+        <capacity>2</capacity>
+        <status>Available</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 6</name>
+        <cost>100</cost>
+        <capacity>2</capacity>
+        <status>Booked</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 7</name>
+        <cost>150</cost>
+        <capacity>2</capacity>
+        <status>Booked</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 8</name>
+        <cost>100</cost>
+        <capacity>2</capacity>
+        <status>Available</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 9</name>
+        <cost>100</cost>
+        <capacity>2</capacity>
+        <status>Available</status>
+    </lodge>
+    <lodge>
+        <name>Lodge 10</name>
+        <cost>300</cost>
+        <capacity>8</capacity>
+        <status>Available</status>
+    </lodge>
+</lodges>

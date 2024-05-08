@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Lodges-->
+    <xs:element name="lodges">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- lodge 1-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- lodge 2-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <!-- lodge 3-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- lodge 4-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- lodge 5-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- lodge 6-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- lodge 7-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- lodge 8-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- lodge 9-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- lodge 10-->
+                <xs:element name="lodge">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="cost" type="xs:float"/>
+                            <xs:element name="capacity" type="xs:integer"/>
+                            <xs:element name="status" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*::before, *::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html,body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+body {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    float: center;
+}
+
+
+nav {
+    background-color:  #36a5ca;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    margin: 0px 0px 15px 0px;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+    
+nav ul li {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+    
+nav ul li:hover {
+    background-color: #e0e0e0;
+}
+
+nav a {
+    display:inline-block;
+    padding: 8px 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #36a5ca;
+    color: #fff;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+#booking-form {
+    text-align: center; /* Center-align the form content */
+}
+
+.form-row {
+    display: inline-block; /* Display form rows inline */
+    margin-right: 20px; /* Add some spacing between form elements */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add some space below labels */
+}
+
+/* CSS styles for map layout */
+#map-container {
+    width: 566px; 
+    height: 400px; 
+    display: flex;
+    margin: 20px 80px; 
+    /* margin-left: 800px; */
+    border: 1px solid #fff; 
+    position: relative; 
+}
+
+.lodge {
+    position: absolute; 
+    background-color: #562f2f; 
+    border: 1px solid #000000; 
+    border-radius: 0%; 
+    text-align: center;
+    line-height: 50px; 
+    cursor: pointer; 
+}
+
+.lodge:hover {
+    background-color: #ff6347;
+    color: #fff; 
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    display: none;
+    z-index: 1000;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .popup img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+} */
+
+.popup p {
+    margin: 5px 0;
+}
+
+#lodge-info-content {
+    text-align: left;
+}
+
+/* #lodge-info-content img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.lodge img {
+    width: 100%; /* Adjust image size as needed */
+    height: 100%;
+    border-radius: 50%;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.container {
+    justify-content: flex-end;
+}
+
+.instructions {
+    width: auto;
+    margin-left: 70px;
+}
